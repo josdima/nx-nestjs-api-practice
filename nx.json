@@ -1,7 +1,7 @@
 {
   "npmScope": "beehive-practice",
   "affected": {
-    "defaultBase": "master"
+    "defaultBase": "main"
   },
   "implicitDependencies": {
     "workspace.json": "*",
