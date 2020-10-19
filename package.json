@@ -40,5 +40,15 @@
     "ts-node": "~7.0.0",
     "tslint": "~6.0.0",
     "typescript": "~4.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,scss,md,ts,html,graphql}": [
+      "yarn format --uncommitted"
+    ]
   }
 }
