@@ -25,5 +25,12 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "api": {
+      "tags": []
+    },
+    "core": {
+      "tags": []
+    }
+  }
 }
